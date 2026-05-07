@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / editor
+.idea/
+.vscode/
+.claude/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Weights & Biases
+wandb/
+
+# Submission bundles
+*.zip
+
+# Jupyter
+.ipynb_checkpoints/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.log
+*.out
+*.synctex.gz
+*.toc

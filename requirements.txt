@@ -1,0 +1,28 @@
+# Core JAX stack
+# For GPU support, install jax / jaxlib matching your CUDA version per
+# https://github.com/google/jax#installation. The pinned versions below
+# match the environment used to produce the paper results.
+jax==0.5.3
+jaxlib==0.5.3
+flax==0.10.4
+optax==0.2.4
+chex==0.1.89
+
+# Data utilities
+numpy==2.2.4
+scipy==1.15.2
+pandas==2.2.3
+
+# Plotting
+matplotlib==3.10.1
+
+# Active-learning loop dependencies
+torch==2.6.0           # only used by data-loader utilities in jaxmix/data_loaders.py
+tqdm==4.67.1
+
+# Experiment tracking (optional; set WANDB_MODE=disabled to skip)
+wandb==0.19.11
+
+# Notebook execution
+ipykernel==6.29.5
+nbformat==5.10.4
